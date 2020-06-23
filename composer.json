@@ -1,0 +1,36 @@
+{
+    "name": "grandcruwijnen/apienhancer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jeroen Ketelaar",
+            "email": "jeroen@grandcruwijnen.nl",
+            "homepage": "https://www.grandcruwijnen.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "MageSpecialist",
+            "homepage": "http://www.magespecialist.it",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^7.1",
+        "msp/common": "*"
+    },
+    "conflicts": {
+        "msp/apiboost": "*"
+    },
+    "suggest": {
+    },
+    "type": "magento2-module",
+    "license": "OSL 3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MSP\\APIEnhancer\\": ""
+        }
+    }
+}
