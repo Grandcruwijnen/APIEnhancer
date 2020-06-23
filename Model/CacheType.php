@@ -12,21 +12,21 @@
  * obtain it through the world-wide-web, please send an email
  * to info@magespecialist.it so we can send you a copy immediately.
  *
- * @category   MSP
- * @package    MSP_APIEnhancer
+ * @category   Grandcruwijnen
+ * @package    Grandcruwijnen_APIEnhancer
  * @copyright  Copyright (c) 2017 Skeeller srl (http://www.magespecialist.it)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace MSP\APIEnhancer\Model;
+namespace Grandcruwijnen\APIEnhancer\Model;
 
 use Magento\Framework\App\Cache\Type\FrontendPool;
 use Magento\Framework\Cache\Frontend\Decorator\TagScope;
 
 class CacheType extends TagScope
 {
-    const TYPE_IDENTIFIER = 'msp_apienhancer';
-    const CACHE_TAG = 'MSP_APIENHANCER_TAG';
+    const TYPE_IDENTIFIER = 'Grandcruwijnen_apienhancer';
+    const CACHE_TAG = 'Grandcruwijnen_APIENHANCER_TAG';
 
     /**
      * @param FrontendPool $cacheFrontendPool

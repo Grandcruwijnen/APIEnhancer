@@ -12,13 +12,13 @@
  * obtain it through the world-wide-web, please send an email
  * to info@magespecialist.it so we can send you a copy immediately.
  *
- * @category   MSP
- * @package    MSP_APIEnhancer
+ * @category   Grandcruwijnen
+ * @package    Grandcruwijnen_APIEnhancer
  * @copyright  Copyright (c) 2017 Skeeller srl (http://www.magespecialist.it)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace MSP\APIEnhancer\Observer;
+namespace Grandcruwijnen\APIEnhancer\Observer;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Catalog\Model\Product;
@@ -28,12 +28,12 @@ use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\Stdlib\DateTime\TimezoneInterface;
 use Magento\Store\Model\StoreManagerInterface;
-use MSP\APIEnhancer\Api\CustomerAuthInterface;
-use MSP\APIEnhancer\Api\TagInterface;
+use Grandcruwijnen\APIEnhancer\Api\CustomerAuthInterface;
+use Grandcruwijnen\APIEnhancer\Api\TagInterface;
 
 class CatalogProductCollectionLoadAfter implements ObserverInterface
 {
-    const XML_PATH_FIX_CATALOG_RULES = 'msp_apienhancer/enhancements/fix_catalog_rules';
+    const XML_PATH_FIX_CATALOG_RULES = 'Grandcruwijnen_apienhancer/enhancements/fix_catalog_rules';
 
     /**
      * @var TagInterface

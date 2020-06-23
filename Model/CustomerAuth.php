@@ -12,19 +12,19 @@
  * obtain it through the world-wide-web, please send an email
  * to info@magespecialist.it so we can send you a copy immediately.
  *
- * @category   MSP
- * @package    MSP_APIEnhancer
+ * @category   Grandcruwijnen
+ * @package    Grandcruwijnen_APIEnhancer
  * @copyright  Copyright (c) 2017 Skeeller srl (http://www.magespecialist.it)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace MSP\APIEnhancer\Model;
+namespace Grandcruwijnen\APIEnhancer\Model;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Api\Data\CustomerInterface;
 use Magento\Framework\App\RequestInterface;
 use Magento\Integration\Model\Oauth\TokenFactory;
-use MSP\APIEnhancer\Api\CustomerAuthInterface;
+use Grandcruwijnen\APIEnhancer\Api\CustomerAuthInterface;
 
 class CustomerAuth implements CustomerAuthInterface
 {

@@ -12,13 +12,13 @@
  * obtain it through the world-wide-web, please send an email
  * to info@magespecialist.it so we can send you a copy immediately.
  *
- * @category   MSP
- * @package    MSP_APIEnhancer
+ * @category   Grandcruwijnen
+ * @package    Grandcruwijnen_APIEnhancer
  * @copyright  Copyright (c) 2017 Skeeller srl (http://www.magespecialist.it)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace MSP\APIEnhancer\Model;
+namespace Grandcruwijnen\APIEnhancer\Model;
 
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -26,13 +26,13 @@ use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\Stdlib\DateTime\DateTime;
 use Magento\Integration\Model\Oauth\TokenFactory;
 use Magento\PageCache\Model\Config as PageCacheConfig;
-use MSP\APIEnhancer\Api\TagInterface;
-use MSP\APIEnhancer\Api\VarnishManagementInterface;
-use MSP\APIEnhancer\Api\VarnishTokenProcessorInterface;
+use Grandcruwijnen\APIEnhancer\Api\TagInterface;
+use Grandcruwijnen\APIEnhancer\Api\VarnishManagementInterface;
+use Grandcruwijnen\APIEnhancer\Api\VarnishTokenProcessorInterface;
 
 class VarnishManagement implements VarnishManagementInterface
 {
-    const SECRET_KEY = 'msp_apienhancer/secret/key';
+    const SECRET_KEY = 'Grandcruwijnen_apienhancer/secret/key';
 
     /**
      * @var array

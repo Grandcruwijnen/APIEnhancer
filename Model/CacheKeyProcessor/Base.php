@@ -12,16 +12,16 @@
  * obtain it through the world-wide-web, please send an email
  * to info@magespecialist.it so we can send you a copy immediately.
  *
- * @category   MSP
- * @package    MSP_APIEnhancer
+ * @category   Grandcruwijnen
+ * @package    Grandcruwijnen_APIEnhancer
  * @copyright  Copyright (c) 2017 Skeeller srl (http://www.magespecialist.it)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace MSP\APIEnhancer\Model\CacheKeyProcessor;
+namespace Grandcruwijnen\APIEnhancer\Model\CacheKeyProcessor;
 
 use Magento\Framework\App\RequestInterface;
-use MSP\APIEnhancer\Api\CacheKeyProcessorInterface;
+use Grandcruwijnen\APIEnhancer\Api\CacheKeyProcessorInterface;
 
 /**
  * This class is only for non-Varnish use

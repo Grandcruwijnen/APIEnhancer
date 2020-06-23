@@ -16,10 +16,10 @@
     ],
     "require": {
         "php": "^7.0|^7.1",
-        "msp/common": "*"
+        "Grandcruwijnen/common": "*"
     },
     "conflicts": {
-        "msp/apiboost": "*"
+        "Grandcruwijnen/apiboost": "*"
     },
     "suggest": {
     },
@@ -30,7 +30,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "MSP\\APIEnhancer\\": ""
+            "Grandcruwijnen\\APIEnhancer\\": ""
         }
     }
 }

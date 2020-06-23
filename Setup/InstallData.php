@@ -1,6 +1,6 @@
 <?php
 
-namespace MSP\APIEnhancer\Setup;
+namespace Grandcruwijnen\APIEnhancer\Setup;
 
 use Magento\Framework\App\Config\ConfigResource\ConfigInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -34,7 +34,7 @@ class InstallData implements InstallDataInterface
         $setup->startSetup();
 
         $this->resourceConfig->saveConfig(
-            'msp_apienhancer/secret/key',
+            'Grandcruwijnen_apienhancer/secret/key',
             md5(uniqid(time())),
             ScopeConfigInterface::SCOPE_TYPE_DEFAULT,
             Store::DEFAULT_STORE_ID

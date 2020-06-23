@@ -12,20 +12,20 @@
  * obtain it through the world-wide-web, please send an email
  * to info@magespecialist.it so we can send you a copy immediately.
  *
- * @category   MSP
- * @package    MSP_APIEnhancer
+ * @category   Grandcruwijnen
+ * @package    Grandcruwijnen_APIEnhancer
  * @copyright  Copyright (c) 2017 Skeeller srl (http://www.magespecialist.it)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-namespace MSP\APIEnhancer\Plugin;
+namespace Grandcruwijnen\APIEnhancer\Plugin;
 
 use Closure;
 use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\AppInterface;
-use MSP\APIEnhancer\Api\CacheManagementInterface;
-use MSP\APIEnhancer\Api\EnhancerManagementInterface;
-use MSP\APIEnhancer\Api\VarnishManagementInterface;
+use Grandcruwijnen\APIEnhancer\Api\CacheManagementInterface;
+use Grandcruwijnen\APIEnhancer\Api\EnhancerManagementInterface;
+use Grandcruwijnen\APIEnhancer\Api\VarnishManagementInterface;
 
 class AppInterfacePlugin
 {
